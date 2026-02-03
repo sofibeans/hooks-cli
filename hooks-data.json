@@ -1,0 +1,171 @@
+{
+  "categories": {
+    "breville-contrarian": {
+      "name": "Breville Contrarian/Myth-Busting",
+      "emoji": "🔧",
+      "format": "short",
+      "performance": "best",
+      "hooks": [
+        "Stop looking at the pressure gauge. Here's why.",
+        "This Breville dial is basically useless",
+        "Your Breville grinder is lying to you",
+        "Everyone does this wrong on the Breville",
+        "The Breville setting Breville doesn't want you to change",
+        "I was using my Breville wrong for 2 years"
+      ]
+    },
+    "breville-tips": {
+      "name": "Breville Tips/Hacks",
+      "emoji": "💡",
+      "format": "short",
+      "performance": "good",
+      "hooks": [
+        "One setting that changed my Breville shots forever",
+        "The Breville hack that took me too long to learn",
+        "Do this BEFORE your first shot of the day",
+        "Clean your Breville like this (most people don't)",
+        "The grind setting I actually use (it's not what you think)"
+      ]
+    },
+    "breville-problems": {
+      "name": "Breville Problem/Solution",
+      "emoji": "🔧",
+      "format": "short",
+      "performance": "good",
+      "hooks": [
+        "Why your Breville shots taste bitter (easy fix)",
+        "Sour shots? Try this.",
+        "If your Breville is making watery espresso, watch this",
+        "Your puck is soupy because of THIS",
+        "Channeling on every shot? Here's the fix"
+      ]
+    },
+    "breville-beginner": {
+      "name": "Breville Beginner-Friendly",
+      "emoji": "🎓",
+      "format": "both",
+      "performance": "good",
+      "hooks": [
+        "What I wish I knew before buying a Breville",
+        "Breville Barista Express: First week tips",
+        "5 things beginners always get wrong",
+        "The Breville accessory that's actually worth it"
+      ]
+    },
+    "starbucks-price": {
+      "name": "Starbucks Price Comparison",
+      "emoji": "💰",
+      "format": "short",
+      "performance": "best",
+      "hooks": [
+        "This $7 Starbucks drink costs me $1.50 at home",
+        "$8 drink. $2 at home. Same taste. Here's how.",
+        "Skip the Starbucks line. Make this instead.",
+        "Starbucks charges HOW much for this?!"
+      ]
+    },
+    "starbucks-viral": {
+      "name": "Starbucks Viral/Trending",
+      "emoji": "🔥",
+      "format": "short",
+      "performance": "best",
+      "hooks": [
+        "The Starbucks drink that broke TikTok",
+        "Everyone's ordering this. Here's the recipe.",
+        "This 'secret menu' drink isn't secret anymore",
+        "The viral Starbucks drink you can make in 2 minutes"
+      ]
+    },
+    "starbucks-seasonal": {
+      "name": "Starbucks Seasonal",
+      "emoji": "🍂",
+      "format": "short",
+      "performance": "good",
+      "hooks": [
+        "Starbucks' [seasonal] is back. Make it at home.",
+        "The fall/winter/spring drink everyone's obsessed with",
+        "Valentine's Starbucks drinks ranked (+ recipes)",
+        "Don't wait in line for the [holiday] drinks"
+      ]
+    },
+    "educational": {
+      "name": "Course/Educational",
+      "emoji": "🎓",
+      "format": "long",
+      "performance": "good",
+      "hooks": [
+        "New espresso machine? Watch this first.",
+        "The complete beginner's guide to espresso",
+        "Everything I learned in 5 years, in 5 minutes",
+        "Why your first shots will suck (and how to fix it)",
+        "From terrible shots to cafe-quality in 30 days",
+        "The day my espresso finally clicked",
+        "After 1000 shots, here's what I've learned",
+        "The mistakes I made so you don't have to",
+        "What they don't tell you about home espresso"
+      ]
+    },
+    "trending-2026": {
+      "name": "Trending 2026",
+      "emoji": "✨",
+      "format": "short",
+      "performance": "testing",
+      "hooks": [
+        "2026 is the year you master your milk",
+        "This is the year we stop overfilling our coffee baskets",
+        "2026: the year of actually cleaning your grinder",
+        "Make 2026 the year you ditch the pressurized basket",
+        "Curiosity got the better of me...",
+        "I've been doing this wrong the entire time",
+        "I finally tried the thing everyone's been talking about",
+        "Sorry I called you overpriced, oat milk — you're actually worth it",
+        "I was wrong about [common opinion]",
+        "Okay fine, the internet was right about this one",
+        "Miso in your latte? It actually works.",
+        "Ube lattes are everywhere — are they worth the hype?",
+        "The pistachio latte trend, but make it at home",
+        "Why is everyone putting [ingredient] in their coffee?",
+        "Little space, big difference",
+        "Small change, huge impact on your shots",
+        "One thing that costs $0 but improves every shot"
+      ]
+    }
+  },
+  "formulas": {
+    "contrarian": {
+      "name": "The Contrarian",
+      "template": "Everyone says [common belief]. Here's why that's wrong.",
+      "example": "Everyone says to use the steam wand tip at the surface. Here's why that's wrong."
+    },
+    "price-reveal": {
+      "name": "The Price Reveal", 
+      "template": "This costs $X at [place]. I made it for $Y.",
+      "example": "This costs $8 at Starbucks. I made it for $1.50."
+    },
+    "mistake": {
+      "name": "The Mistake",
+      "template": "I was doing [thing] wrong for [time period]. Here's the fix.",
+      "example": "I was tamping wrong for 3 years. Here's the fix."
+    },
+    "secret": {
+      "name": "The Secret",
+      "template": "The [thing] that [authority] doesn't want you to know",
+      "example": "The setting that Breville doesn't want you to change"
+    },
+    "curiosity-gap": {
+      "name": "The Curiosity Gap",
+      "template": "This one change [transformed/fixed/improved] my [thing]",
+      "example": "This one change transformed my milk texture forever"
+    },
+    "challenge": {
+      "name": "The Challenge",
+      "template": "I tried [difficult thing] for [time period]. Here's what happened.",
+      "example": "I tried making latte art for 30 days. Here's what happened."
+    },
+    "list": {
+      "name": "The List",
+      "template": "[Number] [things] that will [benefit]",
+      "example": "5 mistakes that are ruining your espresso"
+    }
+  }
+}

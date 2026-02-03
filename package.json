@@ -1,0 +1,16 @@
+{
+  "name": "hooks-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for managing and generating video hooks for HappyBeans",
+  "main": "index.js",
+  "bin": {
+    "hooks": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["hooks", "youtube", "content", "happybeans"],
+  "author": "Sofi (@sofibeans)",
+  "license": "MIT"
+}
