@@ -1,97 +1,93 @@
-# 🦊 HappyBeans Hooks CLI
+# ☕ Liz HappyBeans Hook Generator
 
-A command-line tool for managing and generating video hooks for content creation.
+A powerful hook library and generator for coffee content creators. Features 150+ proven hooks across 12 categories, with formula-based generation and AI-style mashups.
 
-Built by Sofi (@sofibeans) for Liz HappyBeans ☕
+## 🌐 Web App
 
-## Features
+**[Use the Hook Generator →](https://sofibeans.github.io/hooks-cli/)**
 
-- 📁 **58+ hooks** organized by category
-- 🎲 **Random hook generator** for quick inspiration
-- 🔍 **Search** hooks by keyword
-- 📐 **7 hook formulas** with templates and examples
-- ⭐ **Performance tracking** (best/good/testing)
-- 📱 **Format filtering** (short-form vs long-form)
+Features:
+- 📚 Browse 150+ hooks by category
+- 🔍 Search and filter
+- 🎲 Random hook generator
+- 📐 10 hook formulas
+- ✨ AI-style mashup generator
+- 📱 Mobile-friendly
 
-## Installation
+## 💻 CLI Tool
+
+For terminal users, there's also a command-line version:
 
 ```bash
-# Clone the repo
-git clone https://github.com/sofibeans/hooks-cli.git
-cd hooks-cli
+# Install
+npm install -g hooks-cli
 
-# Run directly with Node
-node index.js help
+# Or run directly
+cd tools/hooks-cli
+node index.js
 ```
 
-## Usage
+### Commands
 
 ```bash
 # List all categories
 node index.js list
 
-# Get a random hook
-node index.js random
+# Random hooks
+node index.js random [count]
 
-# Get random hook from specific category
-node index.js random breville
+# Search
+node index.js search "starbucks"
 
-# Search for hooks
-node index.js search "bitter"
-
-# View hook formulas
-node index.js formulas
-
-# Show best-performing categories
+# Best performers
 node index.js best
 
-# Show short-form hooks only
-node index.js short
+# All formulas
+node index.js formulas
 
-# Show statistics
+# Stats
 node index.js stats
-
-# Add a new hook
-node index.js add breville "New hook text here"
 ```
 
-## Categories
+## 📊 What's Inside
 
-| Category | Hooks | Performance | Format |
-|----------|-------|-------------|--------|
-| Breville Contrarian | 6 | ⭐ Best | Short |
-| Breville Tips | 5 | Good | Short |
-| Breville Problems | 5 | Good | Short |
-| Breville Beginner | 4 | Good | Both |
-| Starbucks Price | 4 | ⭐ Best | Short |
-| Starbucks Viral | 4 | ⭐ Best | Short |
-| Starbucks Seasonal | 4 | Good | Short |
-| Educational | 9 | Good | Long |
-| Trending 2026 | 17 | Testing | Short |
+### Categories
+- 🔧 Breville Contrarian/Myth-Busting (Best performers!)
+- 💡 Breville Tips/Hacks
+- 🩹 Breville Problem/Solution
+- 🎓 Breville Beginner-Friendly
+- ☕ Starbucks Copycat Recipes (Best performers!)
+- 🔥 Starbucks Viral/Trending (Best performers!)
+- 🍂 Starbucks Seasonal
+- 🎨 Latte Art
+- ⚙️ Grinder Tips
+- 📚 Educational/Course
+- ✨ Lifestyle/Aesthetic
+- 🚀 Trending 2026
 
-## Hook Formulas
+### Hook Formulas
+1. **The Contrarian** - Everyone says [X]. Here's why that's wrong.
+2. **The Price Reveal** - This costs $X at [place]. I made it for $Y.
+3. **The Mistake** - I was doing [thing] wrong for [time]. Here's the fix.
+4. **The Secret** - The [thing] that [authority] doesn't want you to know
+5. **The Curiosity Gap** - This one change [transformed/fixed/improved] my [thing]
+6. **The Challenge** - I tried [difficult thing] for [time]. Here's what happened.
+7. **The List** - [Number] [things] that will [benefit]
+8. **Before/After** - [Time] ago vs now (what changed)
+9. **The POV** - POV: You finally [achievement]
+10. **Hot Take** - [Controversial opinion]. Fight me.
 
-1. **The Contrarian** - "Everyone says [belief]. Here's why that's wrong."
-2. **The Price Reveal** - "This costs $X at [place]. I made it for $Y."
-3. **The Mistake** - "I was doing [thing] wrong for [time]. Here's the fix."
-4. **The Secret** - "The [thing] that [authority] doesn't want you to know"
-5. **The Curiosity Gap** - "This one change [transformed] my [thing]"
-6. **The Challenge** - "I tried [thing] for [time]. Here's what happened."
-7. **The List** - "[Number] [things] that will [benefit]"
+## 🎯 Performance Tiers
 
-## Contributing
+- ⭐ **Best** - Consistently high engagement
+- ✓ **Good** - Solid performers
+- 🧪 **Testing** - Experimental hooks
 
-Add hooks directly via CLI:
-```bash
-node index.js add <category> <your hook text>
-```
+## 📱 Formats
 
-Or edit `hooks-data.json` directly.
-
-## License
-
-MIT
+- Short-form (Reels, TikTok, Shorts)
+- Long-form (YouTube)
 
 ---
 
-Made with ☕ for the home barista community
+Made with 🦊 by Sofi for Liz HappyBeans

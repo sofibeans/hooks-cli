@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🦊 Hook Generator | Liz HappyBeans</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-emoji">☕</span>
+        <div class="logo-text">
+          <h1>Hook Generator</h1>
+          <p>Liz HappyBeans Content Lab</p>
+        </div>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <!-- Tabs -->
+    <nav class="tabs">
+      <button class="tab active" data-tab="browse">📚 Browse</button>
+      <button class="tab" data-tab="random">🎲 Random</button>
+      <button class="tab" data-tab="formulas">📐 Formulas</button>
+      <button class="tab" data-tab="generate">✨ Generate</button>
+    </nav>
+
+    <!-- Search -->
+    <div class="search-container">
+      <input type="text" id="search" placeholder="🔍 Search hooks..." class="search-input">
+    </div>
+
+    <!-- Content Panels -->
+    <main class="content">
+      
+      <!-- Browse Panel -->
+      <section class="panel active" id="panel-browse">
+        <div class="filters">
+          <select id="category-filter" class="filter-select">
+            <option value="all">All Categories</option>
+          </select>
+          <select id="performance-filter" class="filter-select">
+            <option value="all">All Performance</option>
+            <option value="best">⭐ Best Performers</option>
+            <option value="good">✓ Good</option>
+            <option value="testing">🧪 Testing</option>
+          </select>
+          <select id="format-filter" class="filter-select">
+            <option value="all">All Formats</option>
+            <option value="short">📱 Short-form</option>
+            <option value="long">📺 Long-form</option>
+          </select>
+        </div>
+        <div class="hooks-grid" id="hooks-grid"></div>
+      </section>
+
+      <!-- Random Panel -->
+      <section class="panel" id="panel-random">
+        <div class="random-container">
+          <div class="random-hook-display" id="random-hook">
+            <p class="random-hook-text">Click the button to get a random hook!</p>
+            <span class="random-hook-category"></span>
+          </div>
+          <div class="random-controls">
+            <select id="random-category" class="filter-select">
+              <option value="all">🎲 Any Category</option>
+            </select>
+            <button class="btn-random" id="btn-random">
+              <span class="shake-icon">🎲</span> Shake for Hook
+            </button>
+          </div>
+          <div class="random-history" id="random-history">
+            <h3>Recent Hooks</h3>
+            <ul id="history-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulas Panel -->
+      <section class="panel" id="panel-formulas">
+        <div class="formulas-grid" id="formulas-grid"></div>
+      </section>
+
+      <!-- Generate Panel -->
+      <section class="panel" id="panel-generate">
+        <div class="generate-container">
+          <h2>✨ AI-Style Hook Generator</h2>
+          <p class="generate-desc">Fill in the blanks to generate custom hooks using proven formulas.</p>
+          
+          <div class="generator-form" id="generator-form">
+            <div class="form-group">
+              <label>Formula:</label>
+              <select id="gen-formula" class="filter-select">
+                <option value="">Select a formula...</option>
+              </select>
+            </div>
+            <div id="formula-fields"></div>
+            <button class="btn-generate" id="btn-generate" disabled>Generate Hook</button>
+          </div>
+
+          <div class="generated-result" id="generated-result" style="display: none;">
+            <h3>Your Hook:</h3>
+            <div class="generated-hook" id="generated-hook"></div>
+            <button class="btn-copy" id="btn-copy-generated">📋 Copy</button>
+          </div>
+
+          <div class="quick-generate">
+            <h3>🎰 Quick Generate (Random Mashup)</h3>
+            <button class="btn-mashup" id="btn-mashup">Generate Random Hook</button>
+            <div class="mashup-result" id="mashup-result"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">Copied to clipboard! 📋</div>
+  </div>
+
+  <script src="hooks-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
